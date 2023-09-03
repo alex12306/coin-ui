@@ -1,0 +1,9 @@
+{
+  "name": "coin-components",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.3.4"
+  }
+}
