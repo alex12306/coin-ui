@@ -4,7 +4,7 @@
 <script setup lang="ts">
 //定义组件名字，决定了组件被使用时的标签名
 defineOptions({
-  name: 'XButton',
+  name: 'CButton',
 });
 </script>
 <style lang="scss" scoped>

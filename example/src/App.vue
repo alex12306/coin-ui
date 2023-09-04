@@ -1,6 +1,6 @@
 <template>
   <div>example</div>
-  <XButton></XButton>
-  <XInput></XInput>
+  <CButton></CButton>
+  <CInput></CInput>
 </template>
 <script setup lang="ts"></script>

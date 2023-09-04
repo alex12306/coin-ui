@@ -6,7 +6,7 @@
     "patch": "pnpm run -C packages/coin-ui patch",
     "build": "pnpm run -C packages/coin-ui build",
     "publish": "pnpm run -C packages/coin-ui publish",
-    "release": "pnpm run -C packages/coin-ui release"
+    "release": "pnpm run -C packages/coin-ui release --increment minor"
   },
   "dependencies": {
     "@types/lodash": "^4.14.197",

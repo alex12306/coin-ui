@@ -3,7 +3,7 @@
 </template>
 <script setup lang="ts">
 defineOptions({
-  name: 'XInput',
+  name: 'CInput',
 });
 </script>
 <style lang="scss" scoped>
