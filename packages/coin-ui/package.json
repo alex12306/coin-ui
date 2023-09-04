@@ -1,6 +1,6 @@
 {
   "name": "coin-ui",
-  "version": "1.0.12",
+  "version": "1.0.17",
   "private": false,
   "license": "MIT",
   "author": "alex12306",
@@ -8,13 +8,14 @@
   "type": "module",
   "main": "./dist/lib/coin-ui/index.js",
   "module": "./dist/es/coin-ui/index.mjs",
-  "types": "./dist/coin-ui/index.d.ts",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/coin-ui/index.d.ts",
+      "types": "./dist/index.d.ts",
       "import": "./dist/es/coin-ui/index.mjs",
       "require": "./dist/lib/coin-ui/index.js"
-    }
+    },
+    "./style": "./dist/es/style.css"
   },
   "files": [
     "dist"
@@ -31,16 +32,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "patch": "pnpm version patch",
-    "publish": "pnpm publish",
-    "build": "vite build"
-  },
-  "dependencies": {
-    "vue": "^3.3.4"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
-    "vite": "^4.4.5",
-    "vite-plugin-dts": "^3.5.3"
+    "patch": "npm version patch",
+    "build": "vite build",
+    "publish": "npm publish"
   }
 }

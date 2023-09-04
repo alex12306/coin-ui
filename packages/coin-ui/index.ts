@@ -1,7 +1,7 @@
 import type { App } from 'vue';
-import * as components from '../components';
+import * as components from 'coin-components';
 // 提供手动导入
-export * from '../components';
+export * from 'coin-components';
 export default {
   // 提供全局导入
   install: (app: App) => {
