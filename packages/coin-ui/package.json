@@ -1,6 +1,6 @@
 {
   "name": "coin-ui",
-  "version": "1.0.6",
+  "version": "1.0.12",
   "private": false,
   "license": "MIT",
   "author": "alex12306",
@@ -23,12 +23,16 @@
     "coin-ui",
     "coin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alex12306/coin-ui"
+  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "patch": "npm version patch",
-    "publish": "npm publish",
+    "patch": "pnpm version patch",
+    "publish": "pnpm publish",
     "build": "vite build"
   },
   "dependencies": {
