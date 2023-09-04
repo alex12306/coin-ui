@@ -16,8 +16,10 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
+    "@release-it/conventional-changelog": "^7.0.1",
     "@types/node": "^20.5.8",
     "@vitejs/plugin-vue": "^4.2.3",
+    "release-it": "^16.1.5",
     "sass": "^1.66.1",
     "typescript": "^5.0.2",
     "unplugin-auto-import": "^0.16.6",

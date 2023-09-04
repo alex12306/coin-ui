@@ -34,6 +34,7 @@
   "scripts": {
     "patch": "npm version patch",
     "build": "vite build",
-    "publish": "npm publish"
+    "publish": "npm publish",
+    "release": "release-it"
   }
 }
