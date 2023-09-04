@@ -1,5 +1,5 @@
 {
-  "name": "@coin/utils",
+  "name": "coin-utils",
   "version": "1.0.0",
   "main": "index.ts",
   "license": "ISC"

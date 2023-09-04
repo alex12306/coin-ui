@@ -1,10 +1,10 @@
 import { createApp } from 'vue';
 import App from './App.vue';
 //用于测试打包
-import coin from 'coin-ui';
-import 'coin-ui/style';
+// import coin from 'coin-ui';
+// import 'coin-ui/style';
 //用于开发调试
-// import coin from '../../packages/coin-ui/index';
+import coin from '../../packages/coin-ui/index';
 
 const app = createApp(App);
 app.use(coin);

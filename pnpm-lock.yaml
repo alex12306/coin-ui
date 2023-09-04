@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@types/lodash':
+        specifier: ^4.14.197
+        version: 4.14.197
       coin-components:
         specifier: workspace:^
         version: link:packages/components
@@ -17,6 +20,9 @@ importers:
       element-plus:
         specifier: ^2.3.12
         version: 2.3.12(vue@3.3.4)
+      lodash:
+        specifier: ^4.17.21
+        version: 4.17.21
       vue:
         specifier: ^3.3.4
         version: 3.3.4
