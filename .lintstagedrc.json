@@ -1,0 +1,4 @@
+{
+  "*.{js,cjs,ts,html,json,css,scss,vue}": ["npx prettier --write"],
+  "*.{js,cjs,ts,vue}": ["npx eslint --fix"]
+}
