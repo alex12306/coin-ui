@@ -10,14 +10,20 @@
     "vue": "^3.3.4"
   },
   "scripts": {
-    "commit": "cz"
+    "commit": "cz",
+    "build": "pnpm run -C packages/coin-ui build",
+    "release": "pnpm run -C packages/coin-ui release",
+    "prepare": "husky install"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
     "@release-it/conventional-changelog": "^7.0.1",
     "@types/node": "^20.5.8",
     "@vitejs/plugin-vue": "^4.2.3",
     "commitizen": "^4.3.0",
     "cz-git": "^1.7.1",
+    "husky": "^8.0.0",
     "release-it": "^16.1.5",
     "sass": "^1.66.1",
     "typescript": "^5.0.2",
