@@ -3,8 +3,8 @@
 </template>
 <script setup lang="ts">
 defineOptions({
-  name: 'CInput',
-});
+  name: 'CInput'
+})
 </script>
 <style lang="scss" scoped>
 .test {

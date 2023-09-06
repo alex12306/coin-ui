@@ -1,6 +1,6 @@
-import { defineConfig } from 'vite';
-import vue from '@vitejs/plugin-vue';
-import dts from 'vite-plugin-dts';
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import dts from 'vite-plugin-dts'
 export default defineConfig({
   build: {
     rollupOptions: {
@@ -17,7 +17,7 @@ export default defineConfig({
           preserveModules: true,
           exports: 'named',
           //配置打包根目录
-          dir: 'dist/es',
+          dir: 'dist/es'
         },
         {
           //打包格式
@@ -28,23 +28,23 @@ export default defineConfig({
           preserveModules: true,
           exports: 'named',
           //配置打包根目录
-          dir: 'dist/lib',
-        },
-      ],
+          dir: 'dist/lib'
+        }
+      ]
     },
     //库模式
     lib: {
       //入口
       entry: 'index.ts',
       //文件名
-      fileName: 'index',
+      fileName: 'index'
       //生成格式
       // formats: ['es', 'cjs'],
-    },
+    }
   },
   plugins: [
     vue(),
     // 自动生成类型声明文件
-    dts({ include: './index.ts' }),
-  ],
-});
+    dts({ include: './index.ts' })
+  ]
+})

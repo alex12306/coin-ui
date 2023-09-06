@@ -1,7 +1,8 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
+    node: true
   },
   extends: [
     'eslint:recommended',
@@ -10,9 +11,6 @@ module.exports = {
   ],
   overrides: [
     {
-      env: {
-        node: true
-      },
       files: ['.eslintrc.{js,cjs}'],
       parserOptions: {
         sourceType: 'script'
@@ -39,6 +37,8 @@ module.exports = {
     // 单引号
     quotes: ['error', 'single'],
     // 不要对象的尾随逗号
-    'comma-dangle': ['error', 'never']
+    'comma-dangle': ['error', 'never'],
+    // 允许使用any
+    '@typescript-eslint/no-explicit-any': 'off'
   }
 }

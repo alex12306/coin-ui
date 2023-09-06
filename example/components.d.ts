@@ -5,10 +5,11 @@
 // Read more: https://github.com/vuejs/core/pull/3399
 export {}
 
-declare module 'vue' {
+declare module "vue" {
   export interface GlobalComponents {
-    ElButton: typeof import('element-plus/es')['ElButton']
-    ElCheckbox: typeof import('element-plus/es')['ElCheckbox']
-    Test: typeof import('./src/components/test.vue')['default']
+    ElBadge: typeof import("element-plus/es")["ElBadge"];
+    ElButton: typeof import("element-plus/es")["ElButton"];
+    ElCheckbox: typeof import("element-plus/es")["ElCheckbox"];
+    NButton: typeof import("naive-ui")["NButton"];
   }
 }

@@ -1,5 +1,5 @@
-// eslint-disable-next-line
 module.exports = {
+  // 自定义commit的type类型，因为默认是没有release的
   rules: {
     'type-enum': [
       2,

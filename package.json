@@ -10,9 +10,13 @@
     "vue": "^3.3.4"
   },
   "scripts": {
+    "example:dev": "cd example && vite",
+    "example:build": "cd example && vite build",
+    "example:preview": "cd example && vite preview",
     "commit": "cz",
-    "build": "pnpm run -C packages/coin-ui build",
-    "release": "pnpm run -C packages/coin-ui release",
+    "coin-ui:build": "cd packages/coin-ui && vite build",
+    "coin-ui:release": "cd packages/coin-ui && release-it",
+    "coin-ui:publish-npm": "cd packages/coin-ui && publish",
     "prepare": "git init && husky install",
     "preinstall": "npx only-allow pnpm"
   },
@@ -30,6 +34,7 @@
     "eslint-plugin-vue": "^9.17.0",
     "husky": "^8.0.0",
     "lint-staged": "^14.0.1",
+    "naive-ui": "^2.34.4",
     "prettier": "^2.5.1",
     "release-it": "^16.1.5",
     "sass": "^1.66.1",
