@@ -26,8 +26,4 @@
     </circle>
   </svg>
 </template>
-<style>
-svg {
-  margin: 3px;
-}
-</style>
+<style></style>

@@ -1,7 +1,7 @@
 <template>
   <div id="main">
     <div class="devBox">
-      <c-button type="success"></c-button>
+      <c-button type="success" size="large"></c-button>
     </div>
   </div>
 </template>

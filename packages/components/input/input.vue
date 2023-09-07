@@ -1,13 +1,9 @@
 <template>
-  <input type="text" placeholder="alex" class="test" />
+  <input type="text" placeholder="alex" />
 </template>
 <script setup lang="ts">
 defineOptions({
   name: 'CInput'
 })
 </script>
-<style lang="scss" scoped>
-.test {
-  color: red;
-}
-</style>
+<style lang="scss" scoped></style>

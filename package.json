@@ -8,7 +8,7 @@
     "commit": "cz",
     "coin-ui:build": "cd packages/coin-ui && vite build",
     "coin-ui:release": "cd packages/coin-ui && release-it",
-    "coin-ui:publish-npm": "cd packages/coin-ui && publish",
+    "coin-ui:publish-npm": "cd packages/coin-ui && npm publish",
     "prepare": "git init && husky install",
     "preinstall": "npx only-allow pnpm"
   },

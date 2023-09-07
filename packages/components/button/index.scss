@@ -1,19 +1,20 @@
+// 基础样式
 .c-button {
   background-color: white;
-  border: 1px solid #dcdfe6;
+  border: 1px solid #aeb1b7;
   border-radius: 5px;
   height: 35px;
-  padding: 5px 10px;
+  padding: 0px 10px;
   font-size: 14px;
   transition: all 0.3s;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  .iconfont {
-    transform: translateY(10%);
-    font-size: 20px;
-  }
+  // .iconfont {
+  //   transform: translateY(10%);
+  //   font-size: 20px;
+  // }
   &:hover {
     cursor: pointer;
   }
@@ -21,45 +22,50 @@
     scale: 0.85;
   }
 }
+// 类型-type
 .c-button-default {
   color: black;
-  &:hover {
-    color: rgb(202 180 60);
-    border-color: rgb(202 180 60);
-  }
 }
 .c-button-primary {
   background-color: #409eff;
   border: 1px solid #409eff;
-  &:hover {
-    border: 1px solid #409eff;
-  }
 }
 .c-button-success {
   background-color: #67c23a;
   border: 1px solid #67c23a;
-  &:hover {
-    border: 1px solid #67c23a;
-  }
 }
 .c-button-warning {
   background-color: #e6a23c;
   border: 1px solid #e6a23c;
-  &:hover {
-    border: 1px solid #e6a23c;
-  }
 }
 .c-button-danger {
   background-color: #f56c6c;
   border: 1px solid #f56c6c;
-  &:hover {
-    border: 1px solid #f56c6c;
-  }
 }
 .c-button-info {
   background-color: #909399;
   border: 1px solid #909399;
-  &:hover {
-    border: 1px solid #909399;
+}
+// 禁用-disabled
+.c-button-disabled {
+  opacity: 0.5;
+  cursor: not-allowed !important;
+  &:active {
+    scale: 1;
   }
+}
+// 圆角-round
+.c-button-round {
+  border-radius: 20px;
+}
+// 尺寸-size，default尺寸就是基础设置
+.c-button-small {
+  line-height: 24px;
+  height: 24px;
+  padding: 0 8px;
+}
+.c-button-large {
+  line-height: 30px;
+  height: 40px;
+  padding: 0 20px;
 }
