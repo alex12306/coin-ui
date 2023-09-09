@@ -1,3 +1,14 @@
+
+
+# [2.2.0](https://github.com/alex12306/coin-ui/compare/2.1.0...2.2.0) (2023-09-09)
+
+
+### Features
+
+* **button:** 完成按钮基本开发,增加README ([85194d6](https://github.com/alex12306/coin-ui/commit/85194d63722c20a6b304691eebcefd0a74020077))
+* **button:** complete the type attribute of the button ([075b5cb](https://github.com/alex12306/coin-ui/commit/075b5cb4dfc68429f8abb0c7f1110582d9c044ff))
+* **message:** 完成消息提示组件,完善README,关闭minify ([3f414a9](https://github.com/alex12306/coin-ui/commit/3f414a940a716619fdfcc1e62953d5b6cd912799))
+
 # [2.1.0](https://github.com/alex12306/coin-ui/compare/2.0.0...2.1.0) (2023-09-05)
 
 ### Bug Fixes
