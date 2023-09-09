@@ -1,0 +1,50 @@
+.c-message {
+  z-index: 9999;
+  left: 50%;
+  padding: 15px 19px;
+  transform: translateX(-50%);
+  transition: all 0.5s;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  border-radius: 5px;
+  p {
+    margin: 0;
+    word-break: break-all;
+  }
+  .icon-success,
+  .icon-warning,
+  .icon-info,
+  .icon-error {
+    margin-right: 10px;
+  }
+  .icon-close {
+    margin-left: 15px;
+  }
+}
+.c-message-success {
+  background-color: #f0f9eb;
+  color: #67c23a;
+}
+.c-message-warning {
+  background-color: #fef0f0;
+  color: #e6a23d;
+}
+.c-message-info {
+  background-color: #f4f4f5;
+  color: #94979d;
+}
+.c-message-error {
+  background-color: #fef0f0;
+  color: #f56c6c;
+}
+.c-message-closeButton {
+  cursor: pointer;
+}
+.message-enter-from,
+.message-leave-to {
+  opacity: 0;
+  transform: translate(-50%, -100%);
+}

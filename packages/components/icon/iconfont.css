@@ -1,14 +1,13 @@
 /* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
 @font-face {
   font-family: "iconfont"; /* Project id 4240111 */
-  src: url("//at.alicdn.com/t/c/font_4240111_e55qbi55f68.woff2?t=1693991730104")
+  src: url("//at.alicdn.com/t/c/font_4240111_6w2j5vi43dp.woff2?t=1694191843461")
       format("woff2"),
-    url("//at.alicdn.com/t/c/font_4240111_e55qbi55f68.woff?t=1693991730104")
+    url("//at.alicdn.com/t/c/font_4240111_6w2j5vi43dp.woff?t=1694191843461")
       format("woff"),
-    url("//at.alicdn.com/t/c/font_4240111_e55qbi55f68.ttf?t=1693991730104")
+    url("//at.alicdn.com/t/c/font_4240111_6w2j5vi43dp.ttf?t=1694191843461")
       format("truetype");
 }
-
 .iconfont {
   font-family: "iconfont" !important;
   font-size: 16px;
@@ -20,11 +19,24 @@
 .icon-back:before {
   content: "\e61e";
 }
-
 .icon-loading:before {
   content: "\e62b";
 }
-
 .icon-home:before {
   content: "\e61d";
+}
+.icon-success:before {
+  content: "\e673";
+}
+.icon-warning:before {
+  content: "\e68b";
+}
+.icon-info:before {
+  content: "\e689";
+}
+.icon-close:before {
+  content: "\e668";
+}
+.icon-error:before {
+  content: "\e68a";
 }

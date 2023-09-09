@@ -28,10 +28,25 @@ const className = computed(() => {
 })
 // 规定按钮的props
 interface buttonProps {
+  /**
+   * @description 类型
+   */
   type?: 'default' | 'primary' | 'success' | 'warning' | 'danger' | 'info';
+  /**
+   * @description 尺寸
+   */
   size?: 'small' | 'default' | 'large';
+  /**
+   * @description 是否为圆角
+   */
   round?: boolean;
+  /**
+   * @description 是否禁用
+   */
   disabled?: boolean;
+  /**
+   * @description 是否加载中
+   */
   loading?: boolean;
 }
 const props = withDefaults(defineProps<buttonProps>(), {

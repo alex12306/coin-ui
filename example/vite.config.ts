@@ -12,22 +12,16 @@ export default defineConfig({
     // AutoImport({
     //   imports: [
     //     'vue',
-    //     {
-    //       'naive-ui': [
-    //         'useDialog',
-    //         'useMessage',
-    //         'useNotification',
-    //         'useLoadingBar'
-    //       ]
-    //     }
     //   ]
     //   resolvers: [ElementPlusResolver()]
     // }),
     // Components({
     //   resolvers: [
     //     ElementPlusResolver(),
-    //     NaiveUiResolver()
     //   ]
     // })
-  ]
+  ],
+  server: {
+    // open: true
+  }
 })

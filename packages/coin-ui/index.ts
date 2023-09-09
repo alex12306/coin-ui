@@ -1,7 +1,7 @@
 import type { App } from 'vue'
 import * as components from 'coin-components'
 // 提供手动导入
-export * from 'coin-components'
+export { CMessage, CButton } from 'coin-components'
 export default {
   // 提供全局导入
   install: (app: App) => {

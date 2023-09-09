@@ -3,9 +3,12 @@ import vue from '@vitejs/plugin-vue'
 import dts from 'vite-plugin-dts'
 export default defineConfig({
   build: {
+    // 关闭最小化混淆，否则会改变代码中变量命名，使得打包后有控制台警告：
+    // Do not use built-in or reserved HTML elements as component id: g
+    minify: false,
     rollupOptions: {
-      //忽略打vue文件
-      external: ['vue'],
+      //忽略打包进来的文件
+      external: ['vue', '@vueuse/core'],
       input: ['index.ts'],
       output: [
         {
@@ -13,21 +16,15 @@ export default defineConfig({
           format: 'es',
           //打包后文件名
           entryFileNames: '[name].mjs',
-          //让打包目录和我们目录对应
+          //使用原始模块名作为文件名，为所有模块创建单独的 chunk
           preserveModules: true,
-          exports: 'named',
-          //配置打包根目录
+          //指定所有生成的 chunk 被放置在哪个目录中
           dir: 'dist/es'
         },
         {
-          //打包格式
           format: 'cjs',
-          //打包后文件名
           entryFileNames: '[name].js',
-          //让打包目录和我们目录对应
           preserveModules: true,
-          exports: 'named',
-          //配置打包根目录
           dir: 'dist/lib'
         }
       ]
@@ -38,8 +35,6 @@ export default defineConfig({
       entry: 'index.ts',
       //文件名
       fileName: 'index'
-      //生成格式
-      // formats: ['es', 'cjs'],
     }
   },
   plugins: [
