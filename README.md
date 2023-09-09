@@ -3,6 +3,14 @@
 <p align="center">Vue3 + Vite4 + TypeScript5 + monorepo  </p>
 </div>
 
+# 安装
+
+```
+npm i coin-ui
+```
+
+或使用其他包管理器
+
 # 使用
 
 完整引入：
