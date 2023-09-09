@@ -5,6 +5,7 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "favicon.png" }]],
   title: "coin-ui",
   description: "ui",
+  base: "/coin-ui/",
   themeConfig: {
     // 主页左上角logo
     logo: "/favicon.png",
