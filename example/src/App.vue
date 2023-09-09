@@ -15,7 +15,6 @@ function show() {
     message: `${num++}`,
     type: 'error',
     showClose: true,
-    duration: 0,
     onClose: () => {
       console.log('关闭')
     }
@@ -25,7 +24,7 @@ function show() {
 <style lang="scss" scoped>
 #main {
   position: relative;
-  height: 100%;
+  height: 2000px;
   width: 100%;
   .devBox {
     // background-color: rgb(2, 87, 2);

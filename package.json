@@ -9,6 +9,9 @@
     "coin-ui:build": "cd packages/coin-ui && vite build",
     "coin-ui:release": "cd packages/coin-ui && release-it",
     "coin-ui:publish-npm": "cd packages/coin-ui && npm publish",
+    "docs:dev": "cd docs && pnpx vitepress dev",
+    "docs:build": "cd docs && pnpx vitepress build",
+    "docs:preview": "cd docs && pnpx vitepress preview",
     "prepare": "git init && husky install",
     "preinstall": "npx only-allow pnpm"
   },
@@ -16,6 +19,10 @@
     "commitizen": {
       "path": "node_modules/cz-git"
     }
+  },
+  "engines": {
+    "node": ">=16.0",
+    "pnpm": ">=8.0.0"
   },
   "dependencies": {
     "@types/lodash": "^4.14.197",

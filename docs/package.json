@@ -1,0 +1,8 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "vitepress": "1.0.0-rc.10"
+  }
+}
