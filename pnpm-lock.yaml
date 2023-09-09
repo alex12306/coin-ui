@@ -89,6 +89,10 @@ importers:
         version: 1.8.8(typescript@5.2.2)
 
   docs:
+    dependencies:
+      coin-ui:
+        specifier: workspace:^
+        version: link:../packages/coin-ui
     devDependencies:
       vitepress:
         specifier: 1.0.0-rc.10
