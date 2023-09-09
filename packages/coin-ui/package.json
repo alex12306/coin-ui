@@ -1,6 +1,6 @@
 {
   "name": "coin-ui",
-  "version": "2.2.0",
+  "version": "2.2.2",
   "private": false,
   "license": "MIT",
   "author": "alex12306",
@@ -19,7 +19,7 @@
   },
   "files": [
     "dist",
-    "../../README.md"
+    "./README.md"
   ],
   "keywords": [
     "coin-ui",
