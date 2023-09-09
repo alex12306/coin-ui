@@ -1,5 +1,5 @@
 <div align="center">
-<b style="font-size:30px" align="center">coin-ui 组件库</b>
+<h1 align="center">coin-ui 组件库</h1>
 <p align="center">Vue3 + Vite4 + TypeScript5 + monorepo  </p>
 </div>
 
