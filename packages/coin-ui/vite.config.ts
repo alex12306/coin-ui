@@ -34,12 +34,15 @@ export default defineConfig({
       //入口
       entry: 'index.ts',
       //文件名
-      fileName: 'index'
+      fileName: 'index',
+      name: 'coin-ui'
     }
   },
   plugins: [
     vue(),
     // 自动生成类型声明文件
-    dts({ include: './index.ts' })
+    dts({
+      include: ['../**/*.ts', '../**/*.vue']
+    })
   ]
 })

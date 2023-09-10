@@ -100,7 +100,11 @@ importers:
 
   example: {}
 
-  packages/coin-ui: {}
+  packages/coin-ui:
+    dependencies:
+      '@vueuse/core':
+        specifier: ^10.4.1
+        version: 10.4.1(vue@3.3.4)
 
   packages/components: {}
 
