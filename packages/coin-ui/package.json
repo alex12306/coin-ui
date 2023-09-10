@@ -1,6 +1,6 @@
 {
   "name": "coin-ui",
-  "version": "2.3.0",
+  "version": "2.3.3",
   "private": false,
   "license": "MIT",
   "author": "alex12306",
@@ -29,6 +29,7 @@
     "type": "git",
     "url": "https://github.com/alex12306/coin-ui"
   },
+  "homepage": "https://ui.bhcdd.top",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   }
