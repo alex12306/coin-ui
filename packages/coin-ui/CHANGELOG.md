@@ -1,5 +1,25 @@
 
 
+# [2.3.0](https://github.com/alex12306/coin-ui/compare/2.2.0...2.3.0) (2023-09-10)
+
+
+### Bug Fixes
+
+* 测试workflows ([cd1ee4d](https://github.com/alex12306/coin-ui/commit/cd1ee4d7913290511ef5cebdba6c3fd3ddf5be60))
+* 改变workflows任务执行顺序 ([680e055](https://github.com/alex12306/coin-ui/commit/680e0551d949b41f96dc4dc221b506cf4f4d7b94))
+* 清除本地git缓存，取消上传coin-ui/dist ([1637d9e](https://github.com/alex12306/coin-ui/commit/1637d9e7cbe546304cbce423141d7fa749c18507))
+* 增加vitepress base配置 ([d922934](https://github.com/alex12306/coin-ui/commit/d92293475e65117184fc0c1b6443094704ceb1c5))
+* fix workflows ([cb5902f](https://github.com/alex12306/coin-ui/commit/cb5902fd88d33bec621b5cc6df45f1eec28b95a3))
+* test workflows ([0b20738](https://github.com/alex12306/coin-ui/commit/0b20738163fa0d759de5b3f26bb66c91bcca8c5e))
+* test workflows ([889d243](https://github.com/alex12306/coin-ui/commit/889d2437b3fe7cc26efd6a3b7c173c1ec397cff6))
+
+
+### Features
+
+* github pages使用自定义域名;取消上传coin ui/dist ([86f8e5d](https://github.com/alex12306/coin-ui/commit/86f8e5df238029c33d126370119af5a40863b54d))
+* **vitepress:** 添加vitepress做Ui官网 ([5ba5998](https://github.com/alex12306/coin-ui/commit/5ba5998ff041a38ddd44d587c05ab00be1d3703f))
+* **workflows:** 添加workflows ([81d4cd9](https://github.com/alex12306/coin-ui/commit/81d4cd9c58a8ff9860241117bef185ba5a73ca76))
+
 # [2.2.0](https://github.com/alex12306/coin-ui/compare/2.1.0...2.2.0) (2023-09-09)
 
 
