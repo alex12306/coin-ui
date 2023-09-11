@@ -1,5 +1,12 @@
 
 
+## [2.3.8](https://github.com/alex12306/coin-ui/compare/2.3.0...2.3.8) (2023-09-11)
+
+
+### Bug Fixes
+
+* 修复没有类型提示的问题 ([f8434a5](https://github.com/alex12306/coin-ui/commit/f8434a5a91cd7101d36d2d9a43f910c4a6a45aeb))
+
 # [2.3.0](https://github.com/alex12306/coin-ui/compare/2.2.0...2.3.0) (2023-09-10)
 
 
