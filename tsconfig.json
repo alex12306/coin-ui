@@ -20,7 +20,9 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    // 不用再每个测试文件都导入expect、test
+    "types": ["vitest/globals"]
   },
   "include": [
     "example/**/*.ts",

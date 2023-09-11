@@ -8,7 +8,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, watchEffect } from 'vue'
+import { computed, watchEffect, onMounted } from 'vue'
 import Loading from '../icon/loading.vue'
 import './index.scss'
 // 定义组件名字，决定了组件被使用时的标签名
@@ -55,6 +55,10 @@ const props = withDefaults(defineProps<buttonProps>(), {
   round: false,
   disabled: false,
   loading: false
+})
+
+onMounted(() => {
+  console.log(props)
 })
 
 const allowedTypes = [

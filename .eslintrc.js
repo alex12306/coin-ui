@@ -39,6 +39,8 @@ module.exports = {
     // 不要对象的尾随逗号
     'comma-dangle': ['error', 'never'],
     // 允许使用any
-    '@typescript-eslint/no-explicit-any': 'off'
+    '@typescript-eslint/no-explicit-any': 'off',
+    // 允许使用注释忽略
+    '@typescript-eslint/ban-ts-comment': 'off'
   }
 }
